@@ -1,25 +1,21 @@
 public class StringMethod {
 
+    public static void main(String[] args) {
+        StringMethod stringMethod = new StringMethod();
+        stringMethod.concatString();
+        stringMethod.charAtString();
+    }
+
     public void concatString() {
-        String strA = "This is demo ";
-        strA = strA.concat("- Ken");
-        System.out.println("New string is: " + strA);
+        String strA = "This is ";
+        String strB = strA.concat("FLOWERS");
+        System.out.println("1 - New string: " + strB + " = " + strA + "+ " + "FLOWERS" );
     }
 
     public void charAtString() {
         String strName = "Ken Dai Ca";
         char strChar = strName.charAt(4);
-        System.out.println("char at position 4 is: " + strChar); //[0, , n-1]
+        System.out.println("2 - Char at position 4 of string - " + strName + " - is: " + strChar);
     }
 
-    public void arrList() {
-
-    }
-
-    public static void main(String[] args) {
-        StringMethod stringMethod = new StringMethod();
-        System.out.println("Hello word");
-        stringMethod.concatString();
-        stringMethod.charAtString();
-    }
 }
