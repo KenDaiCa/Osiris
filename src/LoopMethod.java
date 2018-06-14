@@ -1,3 +1,8 @@
-public class LoopMethod {
 
+public class LoopMethod {
+	
+	public static void main(String[] args) {
+		
+		
+	}
 }
